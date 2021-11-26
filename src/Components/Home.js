@@ -28,9 +28,12 @@ const Home=()=>{
         <>
             <h1>This Page created to show Json Response from API to React-App.</h1>
             
-            <h1>{Data.Company}</h1>
-            <p>{Data.Description}</p>
+            <p>Json Source URL:<a>https://reqres.in/api/unknown</a></p>
+            
             <Colors data={colorsData}/>
+            <p>{Data.Company}</p>
+            <p>{Data.Description}</p>
+            
             <h1>Created by Shraddha</h1>
         </>
     )
